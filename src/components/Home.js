@@ -6,11 +6,11 @@ const Home = () => {
     return (
         <div
             id="home"
-            className="section">
+            className="section max-w-[90%] mx-auto">
             <div className="container flex flex-col min-[768px]:flex-row min-[768px]:mb-20 items-center space-evenly mx-auto">
-                <div className="drop-shadow-2xl grow font-lobster text-5xl min-[1024px]:text-7xl min-[1024px]:w-[50%] transition duration-300 ease-in-out hover:scale-110">
+                <div className="drop-shadow-2xl grow font-lobster min-w-fit text-5xl min-[1024px]:text-7xl min-[1024px]:w-[50%] transition duration-300 ease-in-out hover:scale-110">
                     <h1 className="text-white">Ivan Traykov</h1>
-                    <h3 className="text-sky-400 mt-3 text-4xl min-[1024px]:text-5xl">
+                    <h3 className="text-sky-400 mt-3 min-w-[330px] text-4xl min-[1024px]:text-5xl">
                         Your Web{' '}
                         <span className="underline underline-offset-8 decoration-indigo-500">
                             <TypeAnimation
